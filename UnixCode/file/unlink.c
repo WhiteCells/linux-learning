@@ -35,12 +35,12 @@
 #include <stdlib.h>
 
 int main() {
-    int fd = open("../../test/", O_RDWR | O_EXCL);
+    int fd = open("../../test/", o_rdwr | o_excl);
     if (-1 == fd) {
         perror("open");
         exit(0);
     }
-    unlinkat(fd, "../../test/", AT_REMOVEDIR);
+    unlinkat(fd, "../../test/", at_removedir);          
     sleep(10);
     close(fd);
     return 0;
