@@ -10,5 +10,8 @@
 # 链接生成文件
 *.out
 
+# build 目录
+**/build
+
 # test
 /ztest

@@ -72,6 +72,8 @@
         "ratio": "cpp",
         "mutex": "cpp",
         "stop_token": "cpp",
-        "test.h": "c"
+        "test.h": "c",
+        "*.in": "cpp",
+        "numbers": "cpp"
     }
 }

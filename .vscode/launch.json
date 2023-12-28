@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "C/C++: g++-10",
+            "name": "C/C++: g++-11",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/a.out",
@@ -23,7 +23,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++-10 生成活动文件",
+            "preLaunchTask": "C/C++: g++-11 生成活动文件",
             "miDebuggerPath": "/usr/bin/gdb",
             "miDebuggerArgs": "-q -ex quit; wait() { fg >/dev/null; }; /bin/gdb -q --interpreter=mi"
         }
