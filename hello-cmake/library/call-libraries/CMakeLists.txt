@@ -8,4 +8,5 @@ link_directories(${PROJECT_SOURCE_DIR}/lib)
 
 add_executable(app main.cpp)
 
-target_link_libraries(app PUBLIC test)
+target_link_libraries(app PUBLIC test1)
+target_link_libraries(app PUBLIC test2)

@@ -12,4 +12,4 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 file(GLOB SRC ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
 # 创建一个静态库，将指定源文件添加到该库中
-add_library(test STATIC ${SRC})
+add_library(test2 STATIC ${SRC})
